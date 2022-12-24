@@ -15,6 +15,8 @@ export default function Home() {
   )
 }
 
+// TODO: Should we add specific namespaces?
+// https://next-intl-docs.vercel.app/docs/usage/messages
 export const getStaticProps: GetStaticProps = async (context) => {
   const locale = context.locale
 
