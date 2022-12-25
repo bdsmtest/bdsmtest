@@ -1,5 +1,3 @@
-# BDSMtests.org
+# BDSMtest.org
 
-This is the first README of this project.
-
-It will be incremented as the project grows.
+The refactor of the BDSMtest website is being maintained at [this fork](https://github.com/angelod1as/bdsmtest).
