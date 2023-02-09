@@ -560,7 +560,7 @@ function safepost(url,data,proceed,restore,attempt) {
 		}
 		restore();
 	}	
-	$.ajax({url:url,method:"POST",timeout:10000,dataType: "json",data:data,success:success,error:error});
+	$.ajax({url:'https://dev.bdsmtest.org'+url,method:"POST",timeout:10000,dataType: "json",data:data,success:success,error:error,crossDomain:true,"headers":{"accept":"application/json","Access-Control-Allow-Origin":"*"}});
 }
 
 function ad(ad_url) {

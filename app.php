@@ -6,15 +6,15 @@
   <meta name="keywords" content="bdsm, kink, test, quiz, kink test, kink quiz, bdsm test, bdsm quiz">
   <title>BDSM Test: What kind of sexual deviant are you?</title>
   <!--script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script-->
-  <script src="/js/jquery-3.1.1.min.js"></script>
-  <script src="/js/balancetext.min.js"></script>
-  <script src="/js/timer.js"></script>
-  <script src="/lang/en.js?hash=20220629"></script>
-  <script src="/js/common.js?hash=20220728"></script>
-  <script src="/js/pages.js?hash=20220918"></script>
+  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script src="./js/balancetext.min.js"></script>
+  <script src="./js/timer.js"></script>
+  <script src="./lang/en.js?hash=20220629"></script>
+  <script src="./js/common.js?hash=20220728"></script>
+  <script src="./js/pages.js?hash=20220918"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-  <link rel="stylesheet" type="text/css" href="/css/mobile.css?hash=20220829>">
-  <link rel="icon" type="image/png" href="css/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="./css/mobile.css?hash=20220829>">
+  <link rel="icon" type="image/png" href="./css/favicon.png"/>
   <style>
     #menu:after {content: ''; display: block; clear: both;}
     #menu a {font-size:90%; text-decoration:none; display:block; float:left; background-color:#222; width:103px; padding:10px; border: 1px solid #666; border-bottom-right-radius:5px; border-bottom-left-radius:5px; text-align:center;}

@@ -4,11 +4,12 @@ var rauth = {};
 var testdata = {};
 var timeouts = [];
 var currpage = '/splash';
+var localFolder = 'C:/tmp/bdmtest-master/bdsmtest-master';
 
 function track(url,name,notrack) {
 	currpage=url;
-	if (notrack===undefined) ga('send','pageview',url);
-	if (name!==undefined) window.history.pushState({}, name, url);
+	//if (notrack===undefined) ga('send','pageview',localFolder+url);
+	//if (name!==undefined) window.history.pushState({}, name, localFolder+url);
 }
 function verifyEmail() {
 	var result = true;
@@ -45,7 +46,7 @@ function routing(regex) {
 	var url = window.location.href;
 	url = url+'?';
 	url = url.substring(0 , url.indexOf('?'));
-	url = url.substring(url.indexOf('bdsmtest.org') + 'bdsmtest.org'.length);
+	url = url.substring(url.indexOf(localFolder) + localFolder.length);
 	return regex.test(url);
 }
 function route() {
@@ -55,7 +56,8 @@ function route() {
 	menuInfoContact();
 	switch(true) {
 		case routing(/\/$/):
-		case routing(/\/index\.php/):
+        case routing(/\/app\.php/):
+        case routing(/\/index\.php/):
 		case routing(/\/quiz\.php/):
 			if (uauth.uid>0) showUserOverview(); else showAnonOrAccount();
 			break;
